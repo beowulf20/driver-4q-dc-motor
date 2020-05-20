@@ -9,3 +9,12 @@
 - Circuito Modulador PWM (escolher CI comercial ou microcontrolador com software)
 - Driver
 > Ponte comercial ou MOSFET (incluir driver do gate)
+
+
+# Referências
+
+[Using Spice To Model DC Motors](https://www.precisionmicrodrives.com/content/ab-025-using-spice-to-model-dc-motors/)
+
+[M210 1K2 24V Datasheet](docs/m210-iverln-1k2-24v.pdf)
+
+[Guia Prático Proteção de Motores](docs/protecao_motores.pdf)
