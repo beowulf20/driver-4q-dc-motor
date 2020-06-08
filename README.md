@@ -14,6 +14,7 @@
 # Referências
 
 [Using Spice To Model DC Motors](https://www.precisionmicrodrives.com/content/ab-025-using-spice-to-model-dc-motors/)
+[LTSpice Tutorial - Modeling a DC brushed motor](https://www.youtube.com/watch?v=Wc4XzTrWSpo)
 
 [M210 1K2 24V Datasheet](docs/m210-iverln-1k2-24v.pdf)
 
