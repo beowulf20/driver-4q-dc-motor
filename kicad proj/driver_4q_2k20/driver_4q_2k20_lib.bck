@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8701E
+F http://www.ti.com/lit/ds/symlink/drv8701.pdf?ts=1590364038377
+$ENDCMP
+#
+$CMP IPAN70R600P7S
+F https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf
+$ENDCMP
+#
+$CMP M210-IVERLN-1K2-24V
+F http://motron.com.br/produtos/210/curvas/m210-iverln-1k2-24v.pdf
+$ENDCMP
+#
+#End Doc Library

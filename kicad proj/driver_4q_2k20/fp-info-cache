@@ -1,0 +1,92 @@
+20683163054042
+driver_4q_2k20
+CP_Radial_D5.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+driver_4q_2k20
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+driver_4q_2k20
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+driver_4q_2k20
+DRV8701
+
+
+0
+25
+25
+driver_4q_2k20
+IPAN70R600P7S
+
+
+0
+3
+3
+driver_4q_2k20
+LTL-10224W-RED
+
+
+0
+2
+2
+driver_4q_2k20
+Motor Connector
+
+
+0
+2
+2
+driver_4q_2k20
+PinHeader_1x03_P1.27mm_Vertical
+Through hole straight pin header, 1x03, 1.27mm pitch, single row
+Through hole pin header THT 1x03 1.27mm single row
+0
+3
+3
+driver_4q_2k20
+RK09D111
+
+
+0
+5
+3
+driver_4q_2k20
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+driver_4q_2k20
+S1_SMA
+
+
+0
+2
+2
+driver_4q_2k20
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+driver_4q_2k20
+TI_DGN_S-PDSO-G8
+
+
+0
+14
+9
