@@ -32,4 +32,10 @@ K transformer coil magnet
 F ~
 $ENDCMP
 #
+$CMP Transformer_V2
+D Transformer, single primary, single secondary
+K transformer coil magnet
+F https://produto.mercadolivre.com.br/MLB-1380978889-transformador-3030v-5a-trafo-bivolt-_JM?matt_tool=82322591&matt_word&gclid=CjwKCAjwrcH3BRApEiwAxjdPTe2Vd3MLpWKpp-Edq8fe_aW-2E-paqNDO8qglkeG-WZi5CFErjztdRoCUE4QAvD_BwE&quantity=1
+$ENDCMP
+#
 #End Doc Library

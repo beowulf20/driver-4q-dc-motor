@@ -504,101 +504,6 @@ F 3 "http://motron.com.br/produtos/210/curvas/m210-iverln-1k2-24v.pdf" H 9400 25
 	1    9400 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 1600 5550 0    50   Input ~ 0
-nFAULT
-$Comp
-L Device:R R?
-U 1 1 5EEA9CAC
-P 1900 5550
-AR Path="/5EEA9CAC" Ref="R?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CAC" Ref="R3"  Part="1" 
-F 0 "R3" H 1970 5596 50  0000 L CNN
-F 1 "1k" H 1970 5505 50  0000 L CNN
-F 2 "driver_4q_2k20:C_0402_1005Metric" V 1830 5550 50  0001 C CNN
-F 3 "~" H 1900 5550 50  0001 C CNN
-	1    1900 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L driver_4q_2k20_lib:Transistor_NPN Q?
-U 1 1 5EEA9CB9
-P 2450 4850
-AR Path="/5EEA9CB9" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CB9" Ref="Q1"  Part="1" 
-F 0 "Q1" H 2734 4196 50  0000 L CNN
-F 1 "Transistor_NPN" H 2734 4105 50  0000 L CNN
-F 2 "driver_4q_2k20:SOT-23" H 2450 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/916/MMBT3904-1599187.pdf" H 2450 4850 50  0001 C CNN
-	1    2450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EEA9CC5
-P 2550 4950
-AR Path="/5EEA9CC5" Ref="R?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CC5" Ref="R5"  Part="1" 
-F 0 "R5" H 2620 4996 50  0000 L CNN
-F 1 "150" H 2620 4905 50  0000 L CNN
-F 2 "driver_4q_2k20:C_0402_1005Metric" V 2480 4950 50  0001 C CNN
-F 3 "~" H 2550 4950 50  0001 C CNN
-	1    2550 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 5100 2550 5150
-Wire Wire Line
-	2550 4700 2550 4800
-Connection ~ 2550 5150
-Wire Wire Line
-	2550 5150 2550 5200
-$Comp
-L driver_4q_2k20_lib:LED Q?
-U 1 1 5EEA9CCF
-P 3900 5350
-AR Path="/5EEA9CCF" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CCF" Ref="Q2"  Part="1" 
-F 0 "Q2" V 3954 5228 50  0000 L CNN
-F 1 "FAULT RED LED" V 4045 5228 50  0000 L CNN
-F 2 "driver_4q_2k20:LTL-10224W-RED" H 3900 5350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0003556554-1-1737487.pdf" H 3900 5350 50  0001 C CNN
-	1    3900 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3650 5150 3650 5250
-Wire Wire Line
-	2550 5150 3650 5150
-$Comp
-L power:GND #PWR?
-U 1 1 5EEA9CD7
-P 2550 6000
-AR Path="/5EEA9CD7" Ref="#PWR?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CD7" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 2550 5750 50  0001 C CNN
-F 1 "GND" H 2555 5827 50  0000 C CNN
-F 2 "" H 2550 6000 50  0001 C CNN
-F 3 "" H 2550 6000 50  0001 C CNN
-	1    2550 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EEA9CDD
-P 3650 5750
-AR Path="/5EEA9CDD" Ref="#PWR?"  Part="1" 
-AR Path="/5EE6A706/5EEA9CDD" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 3650 5500 50  0001 C CNN
-F 1 "GND" H 3655 5577 50  0000 C CNN
-F 2 "" H 3650 5750 50  0001 C CNN
-F 3 "" H 3650 5750 50  0001 C CNN
-	1    3650 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 5900 2550 6000
-Wire Wire Line
-	3650 5650 3650 5750
 Text GLabel 2900 1200 0    50   Input ~ 0
 SNSOUT
 Text GLabel 3550 2750 0    50   Input ~ 0
@@ -647,21 +552,6 @@ Text GLabel 1050 800  2    50   Input ~ 0
 EN
 Text GLabel 1050 650  2    50   Input ~ 0
 PH
-Wire Wire Line
-	2050 5550 2150 5550
-Wire Wire Line
-	1600 5550 1750 5550
-$Comp
-L power:+5V #PWR0103
-U 1 1 5EE02DD9
-P 2550 4700
-F 0 "#PWR0103" H 2550 4550 50  0001 C CNN
-F 1 "+5V" H 2565 4873 50  0000 C CNN
-F 2 "" H 2550 4700 50  0001 C CNN
-F 3 "" H 2550 4700 50  0001 C CNN
-	1    2550 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L driver_4q_2k20_lib:FDD86580-F085 Q3
 U 1 1 5EF2E577
@@ -759,4 +649,114 @@ Wire Wire Line
 	9150 3200 9150 2800
 Wire Wire Line
 	9150 1850 9150 2200
+$Comp
+L power:+5V #PWR0103
+U 1 1 5EE02DD9
+P 2550 4700
+F 0 "#PWR0103" H 2550 4550 50  0001 C CNN
+F 1 "+5V" H 2565 4873 50  0000 C CNN
+F 2 "" H 2550 4700 50  0001 C CNN
+F 3 "" H 2550 4700 50  0001 C CNN
+	1    2550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5550 1750 5550
+Wire Wire Line
+	2050 5550 2150 5550
+Wire Wire Line
+	3650 5650 3650 5750
+Wire Wire Line
+	2550 5900 2550 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5EEA9CDD
+P 3650 5750
+AR Path="/5EEA9CDD" Ref="#PWR?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CDD" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 3650 5500 50  0001 C CNN
+F 1 "GND" H 3655 5577 50  0000 C CNN
+F 2 "" H 3650 5750 50  0001 C CNN
+F 3 "" H 3650 5750 50  0001 C CNN
+	1    3650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EEA9CD7
+P 2550 6000
+AR Path="/5EEA9CD7" Ref="#PWR?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CD7" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 2550 5750 50  0001 C CNN
+F 1 "GND" H 2555 5827 50  0000 C CNN
+F 2 "" H 2550 6000 50  0001 C CNN
+F 3 "" H 2550 6000 50  0001 C CNN
+	1    2550 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5150 3650 5150
+Wire Wire Line
+	3650 5150 3650 5250
+$Comp
+L driver_4q_2k20_lib:LED Q?
+U 1 1 5EEA9CCF
+P 3900 5350
+AR Path="/5EEA9CCF" Ref="Q?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CCF" Ref="Q2"  Part="1" 
+F 0 "Q2" V 3954 5228 50  0000 L CNN
+F 1 "FAULT RED LED" V 4045 5228 50  0000 L CNN
+F 2 "driver_4q_2k20:LTL-10224W-RED" H 3900 5350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0003556554-1-1737487.pdf" H 3900 5350 50  0001 C CNN
+	1    3900 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 5150 2550 5200
+Connection ~ 2550 5150
+Wire Wire Line
+	2550 4700 2550 4800
+Wire Wire Line
+	2550 5100 2550 5150
+$Comp
+L Device:R R?
+U 1 1 5EEA9CC5
+P 2550 4950
+AR Path="/5EEA9CC5" Ref="R?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CC5" Ref="R5"  Part="1" 
+F 0 "R5" H 2620 4996 50  0000 L CNN
+F 1 "150" H 2620 4905 50  0000 L CNN
+F 2 "driver_4q_2k20:C_0402_1005Metric" V 2480 4950 50  0001 C CNN
+F 3 "~" H 2550 4950 50  0001 C CNN
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L driver_4q_2k20_lib:Transistor_NPN Q?
+U 1 1 5EEA9CB9
+P 2450 4850
+AR Path="/5EEA9CB9" Ref="Q?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CB9" Ref="Q1"  Part="1" 
+F 0 "Q1" H 2734 4196 50  0000 L CNN
+F 1 "Transistor_NPN" H 2734 4105 50  0000 L CNN
+F 2 "driver_4q_2k20:SOT-23" H 2450 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/MMBT3904-1599187.pdf" H 2450 4850 50  0001 C CNN
+	1    2450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EEA9CAC
+P 1900 5550
+AR Path="/5EEA9CAC" Ref="R?"  Part="1" 
+AR Path="/5EE6A706/5EEA9CAC" Ref="R3"  Part="1" 
+F 0 "R3" H 1970 5596 50  0000 L CNN
+F 1 "1k" H 1970 5505 50  0000 L CNN
+F 2 "driver_4q_2k20:C_0402_1005Metric" V 1830 5550 50  0001 C CNN
+F 3 "~" H 1900 5550 50  0001 C CNN
+	1    1900 5550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1600 5550 0    50   Input ~ 0
+nFAULT
 $EndSCHEMATC

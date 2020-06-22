@@ -316,12 +316,12 @@ X FB 9 -500 -550 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# driver_4q_2k20_lib_Transformer
+# driver_4q_2k20_lib_Transformer_V2
 #
-DEF driver_4q_2k20_lib_Transformer T 0 40 Y N 1 F N
+DEF driver_4q_2k20_lib_Transformer_V2 T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
-F1 "driver_4q_2k20_lib_Transformer" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F1 "driver_4q_2k20_lib_Transformer_V2" 0 -300 50 H V C CNN
+F2 "driver_4q_2k20:Transformer_96x87" 0 350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
@@ -343,9 +343,9 @@ A 101 -150 50 -912 -1799 0 1 0 N 101 -199 52 -150
 P 2 0 1 0 -25 200 -25 -200 N
 P 2 0 1 0 25 -200 25 200 N
 X AA 1 -400 200 300 R 50 50 1 1 P
-X SB 10 400 200 300 L 50 50 1 1 P
-X AB 5 -400 -200 300 R 50 50 1 1 P
-X SA 6 400 -200 300 L 50 50 1 1 P
+X AB 2 -400 -200 300 R 50 50 1 1 P
+X SB 3 400 200 300 L 50 50 1 1 P
+X SA 4 400 -200 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
