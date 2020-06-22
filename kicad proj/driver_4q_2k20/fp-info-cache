@@ -1,4 +1,11 @@
-20683163054042
+31836458811267
+driver_4q_2k20
+395430203
+
+
+0
+2
+2
 driver_4q_2k20
 CP_Radial_D5.0mm_P2.00mm
 CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
@@ -27,6 +34,13 @@ DRV8701
 0
 25
 25
+driver_4q_2k20
+D_DO-41_SOD81_P10.16mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
 driver_4q_2k20
 IPAN70R600P7S
 
@@ -90,3 +104,38 @@ TI_DGN_S-PDSO-G8
 0
 14
 9
+driver_4q_2k20
+TO-252-3_TabPin2
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+8
+3
+driver_4q_2k20
+TQFN-20-1EP_5x5mm_P0.65mm_EP3.1x3.1mm
+TQFN, 20 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0140.PDF (T2055-3)), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
+0
+25
+21
+driver_4q_2k20
+TSOT-23-6
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6
+0
+6
+6
+driver_4q_2k20
+Transformer_Breve_TEZ-28x33
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
+0
+9
+9
+driver_4q_2k20
+logo_usf
+
+
+0
+0
+0

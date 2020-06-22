@@ -1,0 +1,23 @@
+Circuit: * F:\Jhonatas\Documents\Personal\Projeto Driver 4Q\LTSpice Models\Draft1.asc
+
+Limiting rise time of source v2 to 1e-005
+Limiting fall time of source v2 to 1e-005
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jun 02 21:02:01 2020
+Total elapsed time: 0.077 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2472
+traniter = 2462
+tranpoints = 1232
+accept = 1205
+rejected = 27
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 164 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: 374 bytes object code size  0.1/0.1/[0.0]
+

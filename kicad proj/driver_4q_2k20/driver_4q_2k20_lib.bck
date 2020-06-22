@@ -4,12 +4,26 @@ $CMP DRV8701E
 F http://www.ti.com/lit/ds/symlink/drv8701.pdf?ts=1590364038377
 $ENDCMP
 #
+$CMP FDD86580-F085
+D N-Channel PowerTrench® MOSFET / 60V, 50A, 10mΩ
+K NMOS,MOSFET
+F https://www.mouser.com/datasheet/2/308/FDD86580_F085-D-1806942.pdf
+$ENDCMP
+#
 $CMP IPAN70R600P7S
 F https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf
 $ENDCMP
 #
+$CMP LTC6992_1
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6992-1-6992-2-6992-3-6992-4.pdf
+$ENDCMP
+#
 $CMP M210-IVERLN-1K2-24V
 F http://motron.com.br/produtos/210/curvas/m210-iverln-1k2-24v.pdf
+$ENDCMP
+#
+$CMP MAX17634
+F https://www.mouser.com/datasheet/2/256/MAX17634A-MAX17634C-1714449.pdf
 $ENDCMP
 #
 #End Doc Library

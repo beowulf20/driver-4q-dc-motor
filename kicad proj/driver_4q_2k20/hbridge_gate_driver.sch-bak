@@ -50,60 +50,8 @@ Wire Wire Line
 	5050 2700 4700 2700
 Wire Wire Line
 	4700 2800 4850 2800
-$Comp
-L driver_4q_2k20_lib:IPAN70R600P7S Q?
-U 1 1 5EEA9BAE
-P 7900 1400
-AR Path="/5EEA9BAE" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9BAE" Ref="Q3"  Part="1" 
-F 0 "Q3" H 8120 1321 50  0000 L CNN
-F 1 "IPAN70R600P7S" H 8120 1230 50  0000 L CNN
-F 2 "driver_4q_2k20:IPAN70R600P7S" H 7900 1900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf" H 7900 1900 50  0001 C CNN
-	1    7900 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L driver_4q_2k20_lib:IPAN70R600P7S Q?
-U 1 1 5EEA9BB4
-P 7900 2050
-AR Path="/5EEA9BB4" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9BB4" Ref="Q4"  Part="1" 
-F 0 "Q4" H 8120 1971 50  0000 L CNN
-F 1 "IPAN70R600P7S" H 8120 1880 50  0000 L CNN
-F 2 "driver_4q_2k20:IPAN70R600P7S" H 7900 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf" H 7900 2550 50  0001 C CNN
-	1    7900 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 1750 7950 1850
-$Comp
-L driver_4q_2k20_lib:IPAN70R600P7S Q?
-U 1 1 5EEA9BBB
-P 7900 2950
-AR Path="/5EEA9BBB" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9BBB" Ref="Q5"  Part="1" 
-F 0 "Q5" H 8120 2779 50  0000 L CNN
-F 1 "IPAN70R600P7S" H 8120 2870 50  0000 L CNN
-F 2 "driver_4q_2k20:IPAN70R600P7S" H 7900 3450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf" H 7900 3450 50  0001 C CNN
-	1    7900 2950
-	1    0    0    1   
-$EndComp
-$Comp
-L driver_4q_2k20_lib:IPAN70R600P7S Q?
-U 1 1 5EEA9BC1
-P 7900 3750
-AR Path="/5EEA9BC1" Ref="Q?"  Part="1" 
-AR Path="/5EE6A706/5EEA9BC1" Ref="Q6"  Part="1" 
-F 0 "Q6" H 8120 3579 50  0000 L CNN
-F 1 "IPAN70R600P7S" H 8120 3670 50  0000 L CNN
-F 2 "driver_4q_2k20:IPAN70R600P7S" H 7900 4250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/196/Infineon-IPAN70R600P7S-DS-v02_01-EN-1709853.pdf" H 7900 4250 50  0001 C CNN
-	1    7900 3750
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7950 3050 7950 3200
 Text GLabel 7500 1600 0    50   Input ~ 0
@@ -124,8 +72,6 @@ Wire Wire Line
 	7500 3550 7700 3550
 Wire Wire Line
 	7950 1850 9150 1850
-Wire Wire Line
-	9150 1850 9150 2200
 Connection ~ 7950 1850
 Wire Wire Line
 	7950 1850 7950 1950
@@ -263,7 +209,6 @@ Wire Wire Line
 	4250 1800 4450 1800
 Wire Wire Line
 	4450 1800 4450 1650
-Connection ~ 4450 1650
 $Comp
 L Device:C C?
 U 1 1 5EEA9C18
@@ -280,8 +225,6 @@ F 4 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K5RAC7411?qs=jbRM9o5Bbz
 $EndComp
 Wire Wire Line
 	4850 1650 4850 1700
-Wire Wire Line
-	4450 1650 4850 1650
 $Comp
 L power:GND #PWR?
 U 1 1 5EEA9C20
@@ -330,7 +273,6 @@ Wire Wire Line
 	4850 1650 5300 1650
 Wire Wire Line
 	5300 1650 5300 1700
-Connection ~ 4850 1650
 $Comp
 L power:+24V #PWR?
 U 1 1 5EEA9C38
@@ -549,20 +491,18 @@ Wire Wire Line
 Connection ~ 1150 2850
 Wire Wire Line
 	1150 3250 1150 3400
-Wire Wire Line
-	9150 3200 9150 2800
 $Comp
 L driver_4q_2k20_lib:M210-IVERLN-1K2-24V M?
 U 1 1 5EEA9CA5
-P 8900 2500
+P 9400 2500
 AR Path="/5EEA9CA5" Ref="M?"  Part="1" 
 AR Path="/5EE6A706/5EEA9CA5" Ref="M1"  Part="1" 
-F 0 "M1" V 8946 2110 50  0000 R CNN
-F 1 "M210-IVERLN-1K2-24V" V 8855 2110 50  0000 R CNN
-F 2 "driver_4q_2k20:Motor Connector" H 8900 2500 50  0001 C CNN
-F 3 "http://motron.com.br/produtos/210/curvas/m210-iverln-1k2-24v.pdf" H 8900 2500 50  0001 C CNN
-	1    8900 2500
-	0    -1   -1   0   
+F 0 "M1" V 9350 2500 50  0000 R CNN
+F 1 "M210-IVERLN-1K2-24V" V 9200 3250 50  0000 R CNN
+F 2 "driver_4q_2k20:395430203" H 9400 2500 50  0001 C CNN
+F 3 "http://motron.com.br/produtos/210/curvas/m210-iverln-1k2-24v.pdf" H 9400 2500 50  0001 C CNN
+	1    9400 2500
+	0    1    1    0   
 $EndComp
 Text GLabel 1600 5550 0    50   Input ~ 0
 nFAULT
@@ -659,61 +599,54 @@ Wire Wire Line
 	2550 5900 2550 6000
 Wire Wire Line
 	3650 5650 3650 5750
-Text GLabel 2900 1000 0    50   Input ~ 0
+Text GLabel 2900 1200 0    50   Input ~ 0
 SNSOUT
-NoConn ~ 3150 1000
-Wire Wire Line
-	2900 1000 3150 1000
 Text GLabel 3550 2750 0    50   Input ~ 0
 IDRIVE
 Wire Wire Line
 	3700 2750 3550 2750
 Text GLabel 3550 2950 0    50   Input ~ 0
 nFAULT
-Text GLabel 2900 1150 0    50   Input ~ 0
+Text GLabel 2900 1350 0    50   Input ~ 0
 IDRIVE
 $Comp
 L Device:R R?
 U 1 1 5EEA9CF0
-P 3150 1300
+P 3150 1500
 AR Path="/5EEA9CF0" Ref="R?"  Part="1" 
 AR Path="/5EE6A706/5EEA9CF0" Ref="R6"  Part="1" 
-F 0 "R6" H 3220 1346 50  0000 L CNN
-F 1 "200K" H 3220 1255 50  0000 L CNN
-F 2 "driver_4q_2k20:C_0402_1005Metric" V 3080 1300 50  0001 C CNN
-F 3 "~" H 3150 1300 50  0001 C CNN
-	1    3150 1300
+F 0 "R6" H 3220 1546 50  0000 L CNN
+F 1 "200K" H 3220 1455 50  0000 L CNN
+F 2 "driver_4q_2k20:C_0402_1005Metric" V 3080 1500 50  0001 C CNN
+F 3 "~" H 3150 1500 50  0001 C CNN
+	1    3150 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1150 3150 1150
+	2900 1350 3150 1350
 $Comp
 L power:GND #PWR?
 U 1 1 5EEA9CF7
-P 3150 1550
+P 3150 1750
 AR Path="/5EEA9CF7" Ref="#PWR?"  Part="1" 
 AR Path="/5EE6A706/5EEA9CF7" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 3150 1300 50  0001 C CNN
-F 1 "GND" H 3155 1377 50  0000 C CNN
-F 2 "" H 3150 1550 50  0001 C CNN
-F 3 "" H 3150 1550 50  0001 C CNN
-	1    3150 1550
+F 0 "#PWR06" H 3150 1500 50  0001 C CNN
+F 1 "GND" H 3155 1577 50  0000 C CNN
+F 2 "" H 3150 1750 50  0001 C CNN
+F 3 "" H 3150 1750 50  0001 C CNN
+	1    3150 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 1450 3150 1550
+	3150 1650 3150 1750
 Text HLabel 900  650  0    50   Input ~ 0
 PH
 Text HLabel 900  800  0    50   Input ~ 0
 EN
-Text GLabel 1050 650  2    50   Input ~ 0
-EN
 Text GLabel 1050 800  2    50   Input ~ 0
+EN
+Text GLabel 1050 650  2    50   Input ~ 0
 PH
-Wire Wire Line
-	900  650  1050 650 
-Wire Wire Line
-	1050 800  900  800 
 Wire Wire Line
 	2050 5550 2150 5550
 Wire Wire Line
@@ -729,4 +662,101 @@ F 3 "" H 2550 4700 50  0001 C CNN
 	1    2550 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L driver_4q_2k20_lib:FDD86580-F085 Q3
+U 1 1 5EF2E577
+P 7900 1400
+F 0 "Q3" H 8120 1321 50  0000 L CNN
+F 1 "FDD86580-F085" H 8120 1230 50  0000 L CNN
+F 2 "driver_4q_2k20:TO-252-3_TabPin2" H 7900 1900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/FDD86580_F085-D-1806942.pdf" H 7900 1900 50  0001 C CNN
+	1    7900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L driver_4q_2k20_lib:FDD86580-F085 Q4
+U 1 1 5EF2F753
+P 7900 2050
+F 0 "Q4" H 8120 1971 50  0000 L CNN
+F 1 "FDD86580-F085" H 8120 1880 50  0000 L CNN
+F 2 "driver_4q_2k20:TO-252-3_TabPin2" H 7900 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/FDD86580_F085-D-1806942.pdf" H 7900 2550 50  0001 C CNN
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L driver_4q_2k20_lib:FDD86580-F085 Q5
+U 1 1 5EF3615F
+P 7900 2950
+F 0 "Q5" H 8120 2871 50  0000 L CNN
+F 1 "FDD86580-F085" H 8120 2780 50  0000 L CNN
+F 2 "driver_4q_2k20:TO-252-3_TabPin2" H 7900 3450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/FDD86580_F085-D-1806942.pdf" H 7900 3450 50  0001 C CNN
+	1    7900 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L driver_4q_2k20_lib:FDD86580-F085 Q6
+U 1 1 5EF3D9D8
+P 7900 3750
+F 0 "Q6" H 8120 3671 50  0000 L CNN
+F 1 "FDD86580-F085" H 8120 3580 50  0000 L CNN
+F 2 "driver_4q_2k20:TO-252-3_TabPin2" H 7900 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/FDD86580_F085-D-1806942.pdf" H 7900 4250 50  0001 C CNN
+	1    7900 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5EF687FF
+P 3150 1200
+F 0 "R13" V 2943 1200 50  0000 C CNN
+F 1 "1k" V 3034 1200 50  0000 C CNN
+F 2 "driver_4q_2k20:R_0402_1005Metric" V 3080 1200 50  0001 C CNN
+F 3 "~" H 3150 1200 50  0001 C CNN
+	1    3150 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 1200 3000 1200
+Wire Wire Line
+	3300 1200 3500 1200
+Text GLabel 2900 900  0    50   Input ~ 0
+nSLEEP
+$Comp
+L Device:R R14
+U 1 1 5EF713E5
+P 3150 900
+F 0 "R14" V 2943 900 50  0000 C CNN
+F 1 "1k" V 3034 900 50  0000 C CNN
+F 2 "driver_4q_2k20:R_0402_1005Metric" V 3080 900 50  0001 C CNN
+F 3 "~" H 3150 900 50  0001 C CNN
+	1    3150 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 900  3000 900 
+Wire Wire Line
+	3300 900  3500 900 
+Text GLabel 3550 1050 2    50   Output ~ 0
+DVDD
+Wire Wire Line
+	3550 1050 3500 1050
+Wire Wire Line
+	3500 900  3500 1050
+Wire Wire Line
+	3500 1200 3500 1050
+Connection ~ 3500 1050
+Wire Wire Line
+	900  650  1050 650 
+Wire Wire Line
+	1050 800  900  800 
+Connection ~ 4850 1650
+Connection ~ 4450 1650
+Wire Wire Line
+	4450 1650 4850 1650
+Wire Wire Line
+	9150 3200 9150 2800
+Wire Wire Line
+	9150 1850 9150 2200
 $EndSCHEMATC
